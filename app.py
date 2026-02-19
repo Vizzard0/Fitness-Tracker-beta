@@ -99,4 +99,4 @@ if st.session_state.my_meals:
     m1, m2, m3, m4 = st.columns(4)
     m1.metric("Calories", f"{t_cal:.0f}", f"{r_cal:.0f} Left", delta_color="inverse")
     m2.metric("Protein", f"{t_p:.0f}g", f"{r_p:.0f}g Left")
-    m3.metric("Carbs", f
+    m3.metric("Carbs", f)
